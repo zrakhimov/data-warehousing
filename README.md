@@ -53,3 +53,12 @@
   * Multi-dimensional OLAP (MOLAP)
   
 * Facts, Dimentsions, Start-Schema, Snowflake, Hierarchies, Cubes
+
+
+* What is **EDW (Enterprise Data Warehouse)** ?
+
+  * It's  combination of:
+  1. Copy of Operational Systems
+  2. Trusted Data
+  3. Deep analytics & modeling
+  4. Reporting & interactive analysis
