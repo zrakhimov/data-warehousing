@@ -19,3 +19,37 @@
   * Data Warehousing is a system used for reporting and data analysis
   * Data Warehouses are a central repository for data from one or more sources
   * Data Warehouses store current and historical data
+
+* Terms used with Data Warehousing?
+  * Warehousing
+  * Analytics
+  * Operational Analytics
+  * Mining
+  * Enterprise Data Warehouses (EDW)
+  * Operational Data Store (ODS)
+  * Physical Data Marts
+  * Logical Data Marts
+  * On-line Analytic Processing (OLAP)
+  
+* ETL and ELT (Extract Transform Load and Extract Load Transorm)
+  * How data moves in the infrastructure which includes a Data Warehouse
+  
+* DSS (Decision Support System ) 
+  * Turning data into information
+  
+* Mixed workloads vs dedicated analytic platforms
+  * Benefits of optimizing systems for a particular workload
+
+* Data Warehouse characteristics
+  * Batch based vs continual data ingest
+  * Cleansed
+  * Re-structured
+  * Optimized for reporting, querying, analytics
+  * Organizes data into non-volatile, subject-specific groupings
+  * Multiple data sources
+  
+* On-line Analytic Processing (OLAP)
+  * Relational OLAP (ROLAP)
+  * Multi-dimensional OLAP (MOLAP)
+  
+* Facts, Dimentsions, Start-Schema, Snowflake, Hierarchies, Cubes
