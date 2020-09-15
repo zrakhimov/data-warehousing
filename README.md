@@ -62,3 +62,21 @@
   2. Trusted Data
   3. Deep analytics & modeling
   4. Reporting & interactive analysis
+  
+* Follow up to this course is a **Big Data**
+
+## Market Observations
+
+1. There's increasing pressure to perform analytics where data gets created.
+
+2. Event-driven applications will enable new analytic use cases
+
+3. Business applications are leveraging both SQL and NoSQL data in structured repositories for analytics
+
+4. Hybrid cloud capabilities of software support economies of scope
+
+5. Private cloud needs cloud-scale convenience.
+
+6. Diverse data sources support an ecosystem of innovation
+
+
