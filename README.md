@@ -127,11 +127,22 @@ We're going to talk about **dimentional modelling** and **business requirements*
   * A project is a row in Figure 1-7.
 * Project level business requirements
   * Same process as used for business requirements
-    
-:exclamation: 2 things to note when building data warehouse
-1. Performance
-2. Simplicity
-3. Accuracy
+
+### Dimension Model Concepts
+
+* Goal: Make sure the users get access to the data they need
+
+* Dimensional Model
+ * Heart of the DW/BI system
+ * Target of the ETL system
+ * Structure of the physical database
+ * Model behind tghe query and reporting applications
+
+* :exclamation: Dimensional Model Success Criteria:
+
+1. Simple
+2. High performance
+3. Relevant / Accurate
 
 
 
