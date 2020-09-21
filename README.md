@@ -65,7 +65,7 @@
   
 * Follow up to this course is a **Big Data**
 
-## Market Observations
+### Market Observations
 
 1. There's increasing pressure to perform analytics where data gets created.
 
@@ -78,5 +78,61 @@
 5. Private cloud needs cloud-scale convenience.
 
 6. Diverse data sources support an ecosystem of innovation
+
+
+## Business Requirements and Business Process Dimension Models
+
+* Kimball Lifecycle
+
+This is basically a diagram outlining the various flows and objects required in a data warehouse. As we go through this topic, we'll touch on every box on this diagram.
+
+![Kimball Lifecycle](week-2/images/kimball-lifecycle.png)
+
+We're going to talk about **dimentional modelling** and **business requirements**
+
+### Business Requirement
+
+* Data Warehouse shouldn't be built based on IT, rather **should be business driven**
+* IT organization is ultimately responsible for **implementation**, but all the sponsorship and drive will come from the busines side.
+
+* **Data Warehouse** - most lines of businesses have their own unique requirements. 
+  * Internet
+  * Landline
+* **Enterprise-level Data Warehouse** - strategy that crossess all lines of businesses and pulls all the warehouses together.
+  * Enterprise-leve business requirements:
+    - Conduct business and IT interviews
+    - Conduct reviews of enterprise requirements
+    - Well defined success criteria
+    - Data Auditing / Data Profiling
+    - Interview Summary
+    - Business Requirements category to supporting business process:
+    
+    ![Alt](week-2/images/business-processes.png)
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
