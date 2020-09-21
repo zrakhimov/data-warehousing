@@ -109,6 +109,8 @@ We're going to talk about **dimentional modelling** and **business requirements*
     
     ![Alt](week-2/images/business-processes.png)
     
+  From these requirements, comes the mapping to some of the analytics we may want do, or some of the business processes it's going to affect. 
+    
     
     
 
