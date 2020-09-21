@@ -109,11 +109,29 @@ We're going to talk about **dimentional modelling** and **business requirements*
     
     ![Alt](week-2/images/business-processes.png)
     
-  From these requirements, comes the mapping to some of the analytics we may want do, or some of the business processes it's going to affect. 
+* From these requirements, comes the mapping to some of the analytics we may want do, or some of the business processes it's going to affect. 
     
-    
-    
+* In Summary it's very important to address the business requirements correct, otherwise the work your IT staff will be doing is going to be a waste.
 
+### Process Gathering Business Requirements
+
+* Enterprise-level business requirements:
+  * Business matrix
+  ![Figure 1-6](week-2/images/business-matrix.png)
+  ![Figure 1-7](week-2/images/enterprise-business-matrix.png)
+* Prioritize business requirements
+  * Business value impact vs feasibility
+  ![Alt](week-2/images/prioritization-grid.png)
+* Planning the project
+  * Break overall business requirements into individual projects
+  * A project is a row in Figure 1-7.
+* Project level business requirements
+  * Same process as used for business requirements
+    
+:exclamation: 2 things to note when building data warehouse
+1. Performance
+2. Simplicity
+3. Accuracy
 
 
 
