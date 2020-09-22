@@ -65,7 +65,7 @@
   
 * Follow up to this course is a **Big Data**
 
-## Market Observations
+### Market Observations
 
 1. There's increasing pressure to perform analytics where data gets created.
 
@@ -78,5 +78,144 @@
 5. Private cloud needs cloud-scale convenience.
 
 6. Diverse data sources support an ecosystem of innovation
+
+
+# Business Requirements and Business Process Dimension Models
+
+* Kimball Lifecycle
+
+This is basically a diagram outlining the various flows and objects required in a data warehouse. As we go through this topic, we'll touch on every box on this diagram.
+
+![Kimball Lifecycle](week-2/images/kimball-lifecycle.png)
+
+We're going to talk about **dimentional modelling** and **business requirements**
+
+## Business Requirement
+
+* Data Warehouse shouldn't be built based on IT, rather **should be business driven**
+* IT organization is ultimately responsible for **implementation**, but all the sponsorship and drive will come from the busines side.
+
+* **Data Warehouse** - most lines of businesses have their own unique requirements. 
+  * Internet
+  * Landline
+* **Enterprise-level Data Warehouse** - strategy that crossess all lines of businesses and pulls all the warehouses together.
+  * Enterprise-leve business requirements:
+    - Conduct business and IT interviews
+    - Conduct reviews of enterprise requirements
+    - Well defined success criteria
+    - Data Auditing / Data Profiling
+    - Interview Summary
+    - Business Requirements category to supporting business process:
+    
+    ![Alt](week-2/images/business-processes.png)
+    
+* From these requirements, comes the mapping to some of the analytics we may want do, or some of the business processes it's going to affect. 
+    
+* In Summary it's very important to address the business requirements correct, otherwise the work your IT staff will be doing is going to be a waste.
+
+### Process Gathering Business Requirements
+
+* Enterprise-level business requirements:
+  * Business matrix
+  ![Figure 1-6](week-2/images/business-matrix.png)
+  ![Figure 1-7](week-2/images/enterprise-business-matrix.png)
+* Prioritize business requirements
+  * Business value impact vs feasibility
+  ![Alt](week-2/images/prioritization-grid.png)
+* Planning the project
+  * Break overall business requirements into individual projects
+  * A project is a row in Figure 1-7.
+* Project level business requirements
+  * Same process as used for business requirements
+
+## Dimension Model Concepts
+
+* Goal: Make sure the users get access to the data they need
+
+* Dimensional Model
+ * Heart of the DW/BI system
+ * Target of the ETL system
+ * Structure of the physical database
+ * Model behind tghe query and reporting applications
+
+* :exclamation: Dimensional Model Success Criteria:
+
+1. Simple
+2. High performance
+3. Relevant / Accurate
+
+## The Star Schema
+
+One of the popular model of the dimensional model data warehouse
+ ![Alt](week-2/images/star.png)
+ 
+ 
+* Location of Dimension Model in Analytics Platform
+
+ ![Alt](week-2/images/dim-location.png)  
+ 
+
+## Fact Table
+
+Nothing more than a table. 
+
+* Fact Table contains the measurements associated with something happening with the businesness process that we're studying.
+
+* Usually the primary key of a fact table contains multiple parts which map to dimension tables.
+
+* Fact tables are very granular, atomic.
+  * For example, buying separate items in a grocery store. Each scan is a fact.
+
+* :exclamation: Three fact table types
+  1. Transaction
+  2. Periodic snapshot
+  3. Accumulating Snapshot
+  
+  
+* Fact tables are **NOT** normalized - repeated information is fine (like city)
+
+### Grain of a Fact Table
+
+* Fact table consists of measurements of a business process
+* The grain is the description of the measurement event in the physical world that gives rise to a measurement
+* The grain of the dimensional model is the finest level of detail that is implied when the fact and dimension tables are joined
+* Fact tables are usually large - 90% of the data in the star schema
+ 
+### Fact Table - usual columns
+
+
+![Alt](week-2/images/usual-columns.png)  
+
+
+## Dimension Model - Concepts
+
+* Tables in a database
+* Dimension tables are NOT normalized
+* Dimension table are designed for: 
+  * Simplification
+  * Performance
+* Spotting dimensions
+  * "by" ... "group by", "order by"
+* Ability to re-use dimensions is key to enterprise data warehouse concept
+* Conformed dimension
+* Drill Across
+
+
+### Conformed Dimensions
+
+* When two business processes use the exact same product dimension with the same keys, they use a **conformed dimension**
+* Conformed dimensions are the cornerstone of the **enterprise-enabled DW/BI system**
+* This kind of analysis involving data from more than one business process is called drill accross
+
+
+![Alt](week-2/images/basic-dimensional-model.png) 
+
+
+
+
+
+
+
+
 
 
