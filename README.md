@@ -80,7 +80,7 @@
 6. Diverse data sources support an ecosystem of innovation
 
 
-## Business Requirements and Business Process Dimension Models
+# Business Requirements and Business Process Dimension Models
 
 * Kimball Lifecycle
 
@@ -90,7 +90,7 @@ This is basically a diagram outlining the various flows and objects required in 
 
 We're going to talk about **dimentional modelling** and **business requirements**
 
-### Business Requirement
+## Business Requirement
 
 * Data Warehouse shouldn't be built based on IT, rather **should be business driven**
 * IT organization is ultimately responsible for **implementation**, but all the sponsorship and drive will come from the busines side.
@@ -128,7 +128,7 @@ We're going to talk about **dimentional modelling** and **business requirements*
 * Project level business requirements
   * Same process as used for business requirements
 
-### Dimension Model Concepts
+## Dimension Model Concepts
 
 * Goal: Make sure the users get access to the data they need
 
@@ -144,19 +144,71 @@ We're going to talk about **dimentional modelling** and **business requirements*
 2. High performance
 3. Relevant / Accurate
 
+## The Star Schema
+
+One of the popular model of the dimensional model data warehouse
+ ![Alt](week-2/images/star.png)
+ 
+ 
+* Location of Dimension Model in Analytics Platform
+
+ ![Alt](week-2/images/dim-location.png)  
+ 
+
+## Fact Table
+
+Nothing more than a table. 
+
+* Fact Table contains the measurements associated with something happening with the businesness process that we're studying.
+
+* Usually the primary key of a fact table contains multiple parts which map to dimension tables.
+
+* Fact tables are very granular, atomic.
+  * For example, buying separate items in a grocery store. Each scan is a fact.
+
+* :exclamation: Three fact table types
+  1. Transaction
+  2. Periodic snapshot
+  3. Accumulating Snapshot
+  
+  
+* Fact tables are **NOT** normalized - repeated information is fine (like city)
+
+### Grain of a Fact Table
+
+* Fact table consists of measurements of a business process
+* The grain is the description of the measurement event in the physical world that gives rise to a measurement
+* The grain of the dimensional model is the finest level of detail that is implied when the fact and dimension tables are joined
+* Fact tables are usually large - 90% of the data in the star schema
+ 
+### Fact Table - usual columns
 
 
+![Alt](week-2/images/usual-columns.png)  
 
 
+## Dimension Model - Concepts
+
+* Tables in a database
+* Dimension tables are NOT normalized
+* Dimension table are designed for: 
+  * Simplification
+  * Performance
+* Spotting dimensions
+  * "by" ... "group by", "order by"
+* Ability to re-use dimensions is key to enterprise data warehouse concept
+* Conformed dimension
+* Drill Across
 
 
+### Conformed Dimensions
+
+* When two business processes use the exact same product dimension with the same keys, they use a **conformed dimension**
+* Conformed dimensions are the cornerstone of the **enterprise-enabled DW/BI system**
+* This kind of analysis involving data from more than one business process is called drill accross
 
 
-
-
-
-
-
+![Alt](week-2/images/basic-dimensional-model.png) 
 
 
 
