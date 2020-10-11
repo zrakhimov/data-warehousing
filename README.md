@@ -28,12 +28,12 @@
   1. Directly against the **OLTP** system
   2. Building a dedicated Data Warehouse system (**OLAP**)
   
-* What is a Data Warehousing?
+### What is a Data Warehousing?
   * Data Warehousing is a system used for reporting and data analysis
   * Data Warehouses are a central repository for data from one or more sources
   * Data Warehouses store current and historical data
 
-* **Terms** used with Data Warehousing?
+### **Terms** used with Data Warehousing?
   * Warehousing
   * Analytics
   * Operational Analytics
@@ -44,7 +44,7 @@
   * Logical Data Marts
   * On-line Analytic Processing (OLAP)
   
-* **ETL and ELT** (Extract Transform Load and Extract Load Transorm)
+### **ETL and ELT** (Extract Transform Load and Extract Load Transorm)
   * How data moves in the infrastructure which includes a Data Warehouse
   
 * **DSS** (Decision Support System ) 
@@ -54,7 +54,7 @@
   * Benefits of optimizing systems for a particular workload
   * Mixed workloads - where we insert our analytical queries directly in transactional system (OLTP)
 
-* Data Warehouse **characteristics**
+### Data Warehouse **characteristics**
   * Batch based vs continual data ingest
   * Cleansed - most time consuming and costly process
   * Re-structured
@@ -62,11 +62,10 @@
   * Organizes data into non-volatile, subject-specific groupings
   * Multiple data sources
   
-* On-line Analytic Processing (OLAP)
+### On-line Analytic Processing (OLAP)
   * Relational OLAP (ROLAP)
   * Multi-dimensional OLAP (MOLAP)
-  
-* Facts, Dimentsions, Start-Schema, Snowflake, Hierarchies, Cubes
+  * Facts, Dimentsions, Start-Schema, Snowflake, Hierarchies, Cubes
 
 
 * What is **EDW (Enterprise Data Warehouse)** ?
@@ -86,6 +85,8 @@
 * Every industry is modernizing their data by augmenting it in a data warehouse.
 
  ![Alt](week-1/images/big-data.png) 
+
+
 
 ### Market Observations
 
@@ -108,7 +109,21 @@
   
 ![Alt](week-1/images/jobs.png)  
   
+
+### Artificial Intelligence - Massive Driving Force
+
+* Machine Learning is about computers being able to self-learn and  make decisions, do things without being programmed to do so.  
+
+* In the context of DW, machine learning comes to play when the computer can re-model data structure to optimize and continually refine themselves to be accurate.  
+
+* Data is core: AI requires a LOT OF DATA
+
+![Alt](week-1/images/levels.png)   
+
+
+
   
+   
 [🔝](#toc)  
   
   
