@@ -96,6 +96,18 @@
 5. Private cloud needs cloud-scale convenience.
 6. Diverse data sources support an ecosystem of innovation
 
+### Some Interesting Data Points
+
+* We are in the beginning of big data / cloud journey
+ ![Alt](week-1/images/data-points.png)  
+ 
+ 
+### Data Professionals 
+
+* Some of the hot jobs currently in the market, and their role in addressing evolving data.  
+  
+![Alt](week-1/images/jobs.png)  
+  
   
 [🔝](#toc)  
   
