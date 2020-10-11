@@ -116,13 +116,21 @@
 
 * In the context of DW, machine learning comes to play when the computer can re-model data structure to optimize and continually refine themselves to be accurate.  
 
-* Data is core: AI requires a LOT OF DATA
+* Data is core: AI requires a LOT OF DATA  
+
+:warning: It is important to have a clean data (not garbage in garbage out), so AI doesn't make wrong business decisions
 
 ![Alt](week-1/images/levels.png)   
 
+### Data is Evolving
+
+![Alt](week-1/images/data-maturity.png)   
+
+### Analytics Platform: New Components 
 
 
-  
+![Alt](week-1/images/new-components.png)  
+   
    
 [🔝](#toc)  
   
