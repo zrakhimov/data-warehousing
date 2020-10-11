@@ -69,7 +69,7 @@
    3. Deep analytics & modeling
    4. Reporting & interactive analysis
    
- ![Alt](week-2/images/architecture.png) 
+ ![Alt](week-1/images/architecture.png) 
   
 * Follow up to this course is a **Big Data**
 
