@@ -1,3 +1,9 @@
+#ToC
+
+* [Week 1 - Intro to Data Warehousing]()
+* [Week 2 - Business Requirements]()
+
+
 # Introduction to Data Warehousing
 
 ## Basic Concepts
@@ -87,6 +93,8 @@
 4. Hybrid cloud capabilities of software support economies of scope
 5. Private cloud needs cloud-scale convenience.
 6. Diverse data sources support an ecosystem of innovation
+
+
 
 
 # Business Requirements and Business Process Dimension Models
