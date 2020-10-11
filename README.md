@@ -69,9 +69,15 @@
    3. Deep analytics & modeling
    4. Reporting & interactive analysis
    
- ![Alt](week-2/images/architecture.png) 
+ ![Alt](week-1/images/architecture.png) 
   
-* Follow up to this course is a **Big Data**
+* Follow up to this course is a **Big Data** 
+
+### Big Data - Impact Accross the marketplace
+
+* Every industry is modernizing their data by augmenting it in a data warehouse.
+
+ ![Alt](week-1/images/big-data.png) 
 
 ### Market Observations
 
