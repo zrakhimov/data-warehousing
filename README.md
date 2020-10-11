@@ -2,14 +2,19 @@
 
 ## Basic Concepts
 
-* Companies run their businesses with OLTP (On-Line Transaction Processing) - also known as "Systems of Record"
+* Companies run their businesses with **OLTP (On-Line Transaction Processing)** - also known as "Systems of Record"
+  * These systems track everything that happens in a system. 
   * Sales suport, order tracking, banking actions, customer support etc.
+  * Everytime a customer does something with a business, there's always a record what we call **transactions**
+  * These **transactions** are stored somewhere, a database.
   
 * Companies want to know things about their business (perform analytics)
-  * Report on results
-  * Historical analysis
-  * Identify trends
-  * Predict future results
+  * Businesses wants to know a certain **meaning out of this data**.
+  * This desire to perform analytics on the data that is stored called **analytics**
+    * Report on results
+    * Historical analysis
+    * Identify trends
+    * Predict future results
   
 * This can be accomplished in a couple of ways: 
   1. Directly against the **OLTP** system
@@ -20,7 +25,7 @@
   * Data Warehouses are a central repository for data from one or more sources
   * Data Warehouses store current and historical data
 
-* Terms used with Data Warehousing?
+* **Terms** used with Data Warehousing?
   * Warehousing
   * Analytics
   * Operational Analytics
@@ -31,18 +36,19 @@
   * Logical Data Marts
   * On-line Analytic Processing (OLAP)
   
-* ETL and ELT (Extract Transform Load and Extract Load Transorm)
+* **ETL and ELT** (Extract Transform Load and Extract Load Transorm)
   * How data moves in the infrastructure which includes a Data Warehouse
   
-* DSS (Decision Support System ) 
+* **DSS** (Decision Support System ) 
   * Turning data into information
   
-* Mixed workloads vs dedicated analytic platforms
+* **Mixed workloads** vs **dedicated analytic platforms**
   * Benefits of optimizing systems for a particular workload
+  * Mixed workloads - where we insert our analytical queries directly in transactional system (OLTP)
 
-* Data Warehouse characteristics
+* Data Warehouse **characteristics**
   * Batch based vs continual data ingest
-  * Cleansed
+  * Cleansed - most time consuming and costly process
   * Re-structured
   * Optimized for reporting, querying, analytics
   * Organizes data into non-volatile, subject-specific groupings
@@ -58,25 +64,22 @@
 * What is **EDW (Enterprise Data Warehouse)** ?
 
   * It's  combination of:
-  1. Copy of Operational Systems
-  2. Trusted Data
-  3. Deep analytics & modeling
-  4. Reporting & interactive analysis
+   1. Copy of Operational Systems
+   2. Trusted Data
+   3. Deep analytics & modeling
+   4. Reporting & interactive analysis
+   
+ ![Alt](week-2/images/architecture.png) 
   
 * Follow up to this course is a **Big Data**
 
 ### Market Observations
 
 1. There's increasing pressure to perform analytics where data gets created.
-
 2. Event-driven applications will enable new analytic use cases
-
 3. Business applications are leveraging both SQL and NoSQL data in structured repositories for analytics
-
 4. Hybrid cloud capabilities of software support economies of scope
-
 5. Private cloud needs cloud-scale convenience.
-
 6. Diverse data sources support an ecosystem of innovation
 
 
