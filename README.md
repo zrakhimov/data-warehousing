@@ -1,3 +1,11 @@
+# Data Warehousing
+
+# ToC
+
+* [Week 1 - Intro to Data Warehousing](#introduction-to-data-warehousing)  
+* [Week 2 - Business Requirements and Business Process Dimension Models](#business-requirements-and-business-process-dimension-models)  
+
+
 # Introduction to Data Warehousing
 
 ## Basic Concepts
@@ -88,7 +96,22 @@
 5. Private cloud needs cloud-scale convenience.
 6. Diverse data sources support an ecosystem of innovation
 
+### Some Interesting Data Points
 
+* We are in the beginning of big data / cloud journey
+ ![Alt](week-1/images/data-points.png)  
+ 
+ 
+### Data Professionals 
+
+* Some of the hot jobs currently in the market, and their role in addressing evolving data.  
+  
+![Alt](week-1/images/jobs.png)  
+  
+  
+[🔝](#toc)  
+  
+  
 # Business Requirements and Business Process Dimension Models
 
 * Kimball Lifecycle
