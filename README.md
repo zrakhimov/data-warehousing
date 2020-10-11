@@ -1,7 +1,9 @@
-#ToC
+# Data Warehousing
 
-* [Week 1 - Intro to Data Warehousing]()
-* [Week 2 - Business Requirements]()
+# ToC
+
+* [Week 1 - Intro to Data Warehousing](#introduction-to-data-warehousing)  
+* [Week 2 - Business Requirements and Business Process Dimension Models](#business-requirements-and-business-process-dimension-models)  
 
 
 # Introduction to Data Warehousing
@@ -94,9 +96,10 @@
 5. Private cloud needs cloud-scale convenience.
 6. Diverse data sources support an ecosystem of innovation
 
-
-
-
+  
+[🔝](#toc)  
+  
+  
 # Business Requirements and Business Process Dimension Models
 
 * Kimball Lifecycle
