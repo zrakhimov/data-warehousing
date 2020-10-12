@@ -270,6 +270,26 @@ Nothing more than a table.
 
 
 
+### Surrogate keys
+
+* A way of building **unique identifier** for each record in our fact table in a **single column**.
+* It is generally meaningless and required for:
+  * Protection against changes in transaction (source) systems
+  * Allows for integration of data from different sources
+  * Allows for manipulation of data in dimensions (add rows)
+  * Track changes in the dimension table
+  * Performance
+
+* Slowly Changing Dimensions:
+  * Employee - years of service
+  * Employee - department number
+  * You want to be thinking about which information may change
+  * You also want to think about how important currency is.
+
+* Dates
+  * Fundamental dimension
+  * Perfect example of where you need surrogate keys.
+
 
 
 
