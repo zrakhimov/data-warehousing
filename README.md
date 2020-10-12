@@ -296,6 +296,52 @@ Nothing more than a table.
 ![Alt](week-2/images/surrogate-key.png)  
 
 
+### Degenerate Dimensions
+
+* Included in fact table, but, **not in any dimension table**
+* Example: transactionID
+* Can be good to tie back to the transaction system.
+
+### Snowflaking
+
+* Act of connecting look-up tables to fields in the dimension table
+* Discouraged - opposite of denormalization
+* Example: address map from postal code to city to province.
+
+### Many-to-many Relationships
+* Desire: One to many
+  * One row in dimension table maps to many rows in fact table
+* Complex: many to many
+* Example: multiple sales people doing the same sale
+  * Need to create a group table
+
+### Hierarchies
+* This is the way in which we drill down on information
+* Variable depth hierarchies
+  * Example: bill of material
+  * SQL can handle this (recursion), however, very complex
+
+### Aggregates
+* Creating of summary tables
+* Great for performance
+* Easily accessible through SQL
+* Particularly imporant for ad-hoc queries
+* Examples:
+  * Revenue of month to date
+  * Profit of month to date
+  * Products sold so far this month
+  * Summaries of previous month/quarter/year. etc.
+  
+
+### Steps:
+ * Graphical model (high level model)
+ * Detailed modeling
+   * Definitions
+   * Sources
+   * Relationships
+   * Data quality issues
+   * Transofmrations required
+ * Review & validation
 
 
 
