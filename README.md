@@ -291,6 +291,9 @@ Nothing more than a table.
   * Perfect example of where you need surrogate keys.
 
 
+### Example
+
+![Alt](week-2/images/surrogate-key.png)  
 
 
 
