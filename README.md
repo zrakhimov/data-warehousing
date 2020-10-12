@@ -242,7 +242,7 @@ Nothing more than a table.
 ![Alt](week-2/images/usual-columns.png)  
 
 
-## Dimension Model - Concepts
+### Dimension Model - Concepts
 
 * Tables in a database
 * Dimension tables are NOT normalized
@@ -261,13 +261,39 @@ Nothing more than a table.
 * When two business processes use the exact same product dimension with the same keys, they use a **conformed dimension**
 * Conformed dimensions are the cornerstone of the **enterprise-enabled DW/BI system**
 * This kind of analysis involving data from more than one business process is called drill accross
-
+* Example:
+ - A dimension such as product will be used in both the retail sales and the store inventory dimensional models
+ - Because they are exactly the same products, both models must use the same dimensions with the same keys to reliably support true cross-business process analysis.
+* This kind of analysis involving data from more than one business process is called **drill accross**
 
 ![Alt](week-2/images/basic-dimensional-model.png) 
 
 
 
+### Surrogate keys
 
+* A way of building **unique identifier** for each record in our fact table in a **single column**.
+* It is generally meaningless and required for:
+  * Protection against changes in transaction (source) systems
+  * Allows for integration of data from different sources
+  * Allows for manipulation of data in dimensions (add rows)
+  * Track changes in the dimension table
+  * Performance
+
+* Slowly Changing Dimensions:
+  * Employee - years of service
+  * Employee - department number
+  * You want to be thinking about which information may change
+  * You also want to think about how important currency is.
+
+* Dates
+  * Fundamental dimension
+  * Perfect example of where you need surrogate keys.
+
+
+### Example
+
+![Alt](week-2/images/surrogate-key.png)  
 
 
 
