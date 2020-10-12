@@ -298,6 +298,7 @@ Nothing more than a table.
 
 ### Degenerate Dimensions
 
+* A mapping back to where this record come from (doesn't add value, but for audit purposes)
 * Included in fact table, but, **not in any dimension table**
 * Example: transactionID
 * Can be good to tie back to the transaction system.
@@ -307,6 +308,7 @@ Nothing more than a table.
 * Act of connecting look-up tables to fields in the dimension table
 * Discouraged - opposite of denormalization
 * Example: address map from postal code to city to province.
+* Use reference tables instead
 
 ### Many-to-many Relationships
 * Desire: One to many
@@ -336,7 +338,7 @@ Nothing more than a table.
 ### Steps:
  * Graphical model (high level model)
  * Detailed modeling
-   * Definitions
+   * Definitions table - like comments in a program
    * Sources
    * Relationships
    * Data quality issues
@@ -344,5 +346,36 @@ Nothing more than a table.
  * Review & validation
 
 
+### Consideration
 
+* Data architecture strategy
+* Naming convensions
+* What data do you keep around
+
+* Develop the detailed dimensional model
+* Testing and refining the model - this is an iterative process
+* Reviewing the validating the model.
+
+
+### Definition Table
+
+* Used to keep track of definitions and importatnt information about your warehouse design and data model
+* Think of this as equivalent to having comments in a program
+* Objective is to make sure if someone else comes along, they can figure out what was used, how and why
+* Columns would include:
+  * TABLE_NAME
+  * COLUMN_NAME
+  * DESCRIPTION
+  * COMMENTS
+  * (others)
+
+### Reference Tables
+* Used to store information important to the business, but, not directly mapped to the star schema with primary / foreign keys
+* Examples:
+  * Currency exchange rates
+  * Mapping of postal codes or zip codes
+
+### Example for A1:
+
+![Alt](week-2/images/dim-model.png) 
 
